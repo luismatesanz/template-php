@@ -1,0 +1,12 @@
+{
+    "name": "Template PHP",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Test\\": "tests/"
+        }
+    },"require": {
+        "php": ">=7.2.0",
+        "phpunit/phpunit": "^7.2"
+    }
+}
